@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <form id="bmi-form">
+            <div id="header">
+                <h1>Check your BMI</h1>
+                <h4>Enter your weight and height below to check your BMI result</h4>
+            </div>
+            <div id="content">
+                <div class="content-input">
+                    <label>Put your weight in here (KG)</label>
+                    <input type="number" placeholder="Your Weight" id="weight" min="1" required/>
+                </div>
+                <div class="content-input">
+                    <label>And your height in here (CM)</label>
+                    <input type="number" placeholder="Your Height" id="height" min="1" required/>
+                </div> 
+                <button type="submit">Calculate BMI</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
